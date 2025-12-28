@@ -18,6 +18,7 @@ export interface CompanyInfo {
   addressAr: string;
   phone: string;
   email: string;
+  gstNumber: string;
   website: string;
   paymentQR: string;
   whatsappQR: string;
@@ -86,6 +87,7 @@ export interface CompanyInfo {
   addressAr: "123 شارع التقنية، مدينة الإلكترونيات، نيودلهي، الهند - 110001",
   phone: "+91-9310367925",
   email: "a.b.n.heatingsystem@gmail.com",
+  gstNumber: "07BJFPT0247H1Z2",
   website: "www.ABN HEATING SYSTEM.com",
   paymentQR: "payment-qr.png",
   whatsappQR: "whatsapp-qr.png",

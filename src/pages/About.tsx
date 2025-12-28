@@ -119,6 +119,10 @@ function About() {
                   <strong>Website:</strong>
                   <span>{companyInfo.website}</span>
                 </div>
+                <div className="detail-item">
+                  <strong>GST Number:</strong>
+                  <span>{companyInfo.gstNumber}</span>
+                </div>
               </div>
             </div>
 
@@ -141,6 +145,35 @@ function About() {
                   <h4>🌍 Sustainability</h4>
                   <p>Committed to environmentally responsible business practices.</p>
                 </div>
+              </div>
+            </div>
+
+            <div className="about-section">
+              <h3>Certifications & Accreditations</h3>
+              <div className="certifications-grid">
+                <div className="cert-item">
+                  <img src="/images/msme.png" alt="MSME Certificate" className="cert-logo" />
+                  <p>MSME Registered</p>
+                </div>
+                <div className="cert-item">
+                  <img src="/images/iso.png" alt="ISO Certificate" className="cert-logo" />
+                  <p>ISO 9001:2015</p>
+                </div>
+                <div className="cert-item">
+                  <img src="/images/qro.png" alt="QRO Certificate" className="cert-logo" />
+                  <p>QRO Certified</p>
+                </div>
+                <div className="cert-item">
+                  <img src="/images/uiaf.png" alt="UIAF Certificate" className="cert-logo" />
+                  <p>UIAF Approved</p>
+                </div>
+                <div className="cert-item">
+                  <img src="/images/isoqms.png" alt="ISO QMS Certificate" className="cert-logo" />
+                  <p>ISO QMS Certified</p>
+                </div>
+              </div>
+              <div className="certificate-container">
+                <img src="/Certificate.JPG" alt="Company Certificate" className="certificate-image" />
               </div>
             </div>
           </div>

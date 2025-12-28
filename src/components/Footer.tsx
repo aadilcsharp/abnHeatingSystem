@@ -42,6 +42,9 @@ function Footer() {
                 <MapPin size={14} />
                 <span>{companyInfo.address}</span>
               </div>
+              <div className="contact-item-small">
+                <strong>GST:</strong> {companyInfo.gstNumber}
+              </div>
             </div>
           </div>
           
