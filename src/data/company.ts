@@ -71,7 +71,7 @@ export interface CompanyInfo {
   nameHi: "टेकमार्ट इलेक्ट्रॉनिक्स",
   nameUr: "ٹیک مارٹ الیکٹرانکس",
   nameAr: "تيك مارت للإلكترونيات",
-  logo: "⚡",
+  logo: "/logo.jpeg",
   tagline: "Empowering Your Digital Life",
   taglineHi: "आपके डिजिटल जीवन को शक्ति देना",
   taglineUr: "آپ کی ڈیجیٹل زندگی کو طاقت دینا",

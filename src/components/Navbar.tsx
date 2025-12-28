@@ -51,9 +51,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <span className="nav-logo-icon">
-            <Zap size={24} />
-          </span>
+          <img src={companyInfo.logo} alt="Logo" className="nav-logo-image" />
           <span className="logo-text">{getCompanyName()}</span>
         </Link>
 

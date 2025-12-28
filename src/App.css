@@ -201,6 +201,13 @@ a {
   text-shadow: 0 0 10px var(--primary-color);
 }
 
+.nav-logo-image {
+  height: 50px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+}
+
 @keyframes iconPulse {
   0%, 100% {
     transform: scale(1);
