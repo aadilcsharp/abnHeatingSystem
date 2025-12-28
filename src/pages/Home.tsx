@@ -39,8 +39,8 @@ function Home() {
     },
     {
       image: heroBanner5,
-      title: "Electronics Sale",
-      subtitle: "Mega Electronics Festival",
+      title: " Sale",
+      subtitle: "Mega  Festival",
       description: "Free Shipping • Easy Returns • 24/7 Support"
     }
   ];

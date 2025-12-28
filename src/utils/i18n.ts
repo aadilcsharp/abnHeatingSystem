@@ -12,8 +12,8 @@ const resources = {
       cart: "Cart",
       
       // Home Page
-      welcomeTitle: "Welcome to ABN HEATING SYSTEM Electronics",
-      welcomeSubtitle: "Your trusted partner for premium electronics",
+      welcomeTitle: "Welcome to ABN HEATING SYSTEM",
+      welcomeSubtitle: "Your trusted partner for premium heating systems and gadgets",
       specialOffers: "Special Offers",
       shopNow: "Shop Now",
       featuredProducts: "Featured Products",
@@ -60,8 +60,8 @@ const resources = {
       callUs: "Call Us",
       
       // About
-      aboutTitle: "About ABN HEATING SYSTEM Electronics",
-      aboutDescription: "We are a leading retailer of premium electronics and gadgets, committed to providing our customers with the latest technology at competitive prices.",
+      aboutTitle: "About ABN HEATING SYSTEM",
+      aboutDescription: "We are a leading retailer of premium heating systems and gadgets, committed to providing our customers with the latest technology at competitive prices.",
       
       // Common
       loading: "Loading...",

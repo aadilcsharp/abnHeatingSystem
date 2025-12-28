@@ -922,6 +922,7 @@ a {
 .offers-banner {
   padding: 2rem 0;
   background: var(--color-surface);
+  display: none;
 }
 
 .offers-container {

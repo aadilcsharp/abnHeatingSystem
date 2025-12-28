@@ -52,7 +52,7 @@ function About() {
             <div className="about-hero-image">
               <div className="company-logo">
                 <span className="logo-text-large">ABN HEATING SYSTEM</span>
-                <span className="logo-tagline">Electronics</span>
+                <span className="logo-tagline"></span>
               </div>
             </div>
           </div>

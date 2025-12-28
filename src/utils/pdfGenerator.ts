@@ -480,7 +480,7 @@ export const generateProductCatalogHTML = (
             </div>
             <p>This catalog was generated on ${currentDate} and is subject to change without notice. 
                Prices and availability may vary. Please contact us for the most current information.</p>
-            <p><strong>${getCompanyName(options.language)}</strong> - Your trusted electronics partner</p>
+            <p><strong>${getCompanyName(options.language)}</strong> - Your trusted partner</p>
         </div>
     </div>
     

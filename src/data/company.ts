@@ -116,13 +116,13 @@ export interface CompanyInfo {
   navigationSettings: {
     enableHome: true,
     enableProducts: true,
-    enableAbout: false,
+    enableAbout: true,
     enableContact: false,
     enableCart: true
   },
   // Authentication settings - all enabled by default
   authSettings: {
-    enableLogin: true,
+    enableLogin: false,
     enableSignup: false,
     showDemoCredentials: false // Show demo credentials by default
   },

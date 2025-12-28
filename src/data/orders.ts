@@ -111,14 +111,6 @@ export let orders: Order[] = [
     customerEmail: "bob.johnson@email.com",
     items: [
       {
-        id: 2,
-        name: "Wireless Headphones",
-        price: 15999,
-        quantity: 2,
-        image: "mobile/phone2.jpg",
-        category: "Electronics"
-      },
-      {
         id: 4,
         name: "Smart Watch Series",
         price: 24999,
