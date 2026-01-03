@@ -238,7 +238,7 @@ function Home() {
                           </div>
                           <div className="product-rating">
                             {[1, 2, 3, 4, 5].map((star) => (
-                              <Star key={st ar} size={12} fill="currentColor" />
+                              <Star key={star} size={12} fill="currentColor" />
                             ))}
                             <span>(4.8)</span>
                           </div>

@@ -2217,6 +2217,9 @@ a {
 .product-image-container{
   height: 250px;
 }
+.product-image{
+  height: 150px;
+}
 .certificate-container {
   display: flex;
   justify-content: center;
