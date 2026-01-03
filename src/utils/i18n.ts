@@ -95,8 +95,8 @@ const resources = {
       enterEmail: "Enter your email address",
       subscribe: "Subscribe",
       allRightsReserved: "All rights reserved",
-      madeWith: "Made with",
-      forTechEnthusiasts: "for tech enthusiasts",
+      madeWith: "Made by",
+      forTechEnthusiasts: "Aadil Malik | For web app please contact on 9540065774",
       privacyPolicy: "Privacy Policy",
       termsOfService: "Terms of Service",
       cookiePolicy: "Cookie Policy"

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Heart, Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin,Shield  } from 'lucide-react';
 import { companyInfo } from '../data/company';
 
 function Footer() {
@@ -70,7 +70,7 @@ function Footer() {
         {/* Bottom section */}
         <div className="footer-small-bottom">
           <div className="footer-small-made">
-            {t('madeWith')} <Heart size={12} fill="currentColor" /> {t('forTechEnthusiasts')}
+            <Shield size={12} fill="#278253" />  {t('madeWith')} {t('forTechEnthusiasts')}
           </div>
           <div className="footer-social-links">
             <a href={companyInfo.socialMedia.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">

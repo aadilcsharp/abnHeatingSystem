@@ -110,7 +110,7 @@ export interface CompanyInfo {
     gstRate: 18 // 18% GST
   },
   shippingSettings: {
-    enableShipping: true,
+    enableShipping: false,
     freeShippingThreshold: 2999, // Free shipping above ₹2999
     shippingCharge: 99 // ₹99 shipping charge
   },
