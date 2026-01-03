@@ -3,7 +3,7 @@
 
 // Default fallback image for when product images are not available
 export const imagePlaceholder = "data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23999' font-family='Arial, sans-serif' font-size='16'%3EProduct Image%3C/text%3E%3C/svg%3E";
-
+const isProduction = import.meta.env.PROD;
 // Function to get product image - uses actual images from products.ts
 export const getProductImage = (imagePath: string, productName: string, index: number = 0): string => {
   // If no image path provided, return placeholder with product name
@@ -21,7 +21,11 @@ export const getProductImage = (imagePath: string, productName: string, index: n
     // Path is already in correct format
   } else {
     // For simple filenames like "headphones1.jpg", assume they're in mobile folder
+     if (isProduction){
+      processedPath = `images/${processedPath}`;
+     }else{
     processedPath = `public/images/${processedPath}`;
+     }
   }
   
   // Return the processed image path - Vite will handle the import
