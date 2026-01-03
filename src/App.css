@@ -2210,7 +2210,13 @@ a {
   min-width: 100px;
   color: #333;
 }
-
+.carousel-product-card{
+  height: 420px;
+  width: 280px;
+}
+.product-image-container{
+  height: 250px;
+}
 .certificate-container {
   display: flex;
   justify-content: center;

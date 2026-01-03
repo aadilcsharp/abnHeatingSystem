@@ -131,7 +131,7 @@ export interface CompanyInfo {
   // Home page settings - trending first
   homePageSettings: {
     showHeroSection: false,
-    showTrendingSection: false,
+    showTrendingSection: true,
     sectionOrder: 'hero-second' // Show trending products first, hero second
       //     'trending-first' = Trending → Hero (current setting) ✅
       // 'hero-second' = Hero → Trending

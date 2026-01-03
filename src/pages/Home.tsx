@@ -238,7 +238,7 @@ function Home() {
                           </div>
                           <div className="product-rating">
                             {[1, 2, 3, 4, 5].map((star) => (
-                              <Star key={star} size={12} fill="currentColor" />
+                              <Star key={st ar} size={12} fill="currentColor" />
                             ))}
                             <span>(4.8)</span>
                           </div>
@@ -478,7 +478,7 @@ function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="features">
+      {/* <section className="features">
         <div className="section-container">
           <div className="features-grid">
             <div className="feature-card">
@@ -503,7 +503,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
