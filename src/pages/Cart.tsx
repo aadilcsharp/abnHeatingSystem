@@ -50,7 +50,7 @@ function Cart() {
       if (item.category === 'Fashion') {
         return `/bra/${imagePath}`;
       }
-      return `/mobile/${imagePath}`;
+      return `/images/${imagePath}`;
     }
     
     // Fallback to category-based images

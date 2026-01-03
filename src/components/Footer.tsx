@@ -58,16 +58,11 @@ function Footer() {
               </div>
               <div className="footer-links-column">
                 <strong>{t('support')}</strong>
-                <a href="/contact">{t('contact')}</a>
-                <a href="/help">{t('helpCenter')}</a>
-                <a href="/returns">{t('returns')}</a>
+                <a href="/about">{t('contact')}</a>
+                <a href="/about">{t('helpCenter')}</a>
+                <a href="/about">{t('returns')}</a>
               </div>
-              <div className="footer-links-column">
-                <strong>{t('legal')}</strong>
-                <a href="/privacy">{t('privacyPolicy')}</a>
-                <a href="/terms">{t('termsOfService')}</a>
-                <a href="/cookies">{t('cookiePolicy')}</a>
-              </div>
+              
             </div>
           </div>
         </div>
