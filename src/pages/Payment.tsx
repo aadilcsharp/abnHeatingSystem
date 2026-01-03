@@ -151,7 +151,7 @@ function Payment() {
                 </div>
                 <p className="qr-instructions">{t('paymentInstructions')}</p>
                 
-                <div className="payment-apps">
+                {/* <div className="payment-apps">
                   <h4>Supported UPI Apps:</h4>
                   <div className="upi-apps">
                     <div className="upi-app">Google Pay</div>
@@ -160,7 +160,7 @@ function Payment() {
                     <div className="upi-app">Amazon Pay</div>
                     <div className="upi-app">BHIM UPI</div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="payment-info">
                   <div className="payment-detail">
@@ -177,16 +177,16 @@ function Payment() {
                   </div>
                 </div>
 
-                <button 
+                {/* <button 
                   className="btn btn-success payment-complete-btn"
                   onClick={handlePaymentComplete}
                 >
                   <CheckCircle size={20} />
                   Mark as Paid (Demo)
-                </button>
+                </button> */}
               </div>
             </div>
-
+{/* 
             <div className="payment-alternative">
               <h3>Alternative Payment Methods</h3>
               <div className="payment-methods">
@@ -212,7 +212,7 @@ function Payment() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="order-summary-payment">

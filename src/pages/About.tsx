@@ -151,7 +151,7 @@ function About() {
             <div className="about-section">
               <h3>Certifications & Accreditations</h3>
               <div className="certifications-grid">
-                <div className="cert-item">
+                {/* <div className="cert-item">
                   <img src="/images/msme.png" alt="MSME Certificate" className="cert-logo" />
                   <p>MSME Registered</p>
                 </div>
@@ -170,7 +170,7 @@ function About() {
                 <div className="cert-item">
                   <img src="/images/isoqms.png" alt="ISO QMS Certificate" className="cert-logo" />
                   <p>ISO QMS Certified</p>
-                </div>
+                </div> */}
               </div>
               <div className="certificate-container">
                 <img src="/Certificate.JPG" alt="Company Certificate" className="certificate-image" />
