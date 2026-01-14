@@ -19,7 +19,7 @@ export const users: User[] = [
     password: "admin123", // In production, this should be hashed
     role: "admin",
     name: "Administrator",
-    email: "admin@ABN HEATING SYSTEM.com",
+    email: "admin@Malik Trays.com",
     isActive: true,
     createdAt: "2024-01-01",
     lastLogin: undefined
@@ -30,7 +30,7 @@ export const users: User[] = [
     password: "emp123",
     role: "employee",
     name: "John Doe",
-    email: "john@ABN HEATING SYSTEM.com",
+    email: "john@Malik Trays.com",
     isActive: true,
     createdAt: "2024-01-15",
     lastLogin: undefined
@@ -41,7 +41,7 @@ export const users: User[] = [
     password: "emp456",
     role: "employee",
     name: "Jane Smith",
-    email: "jane@ABN HEATING SYSTEM.com",
+    email: "jane@Malik Trays.com",
     isActive: true,
     createdAt: "2024-01-20",
     lastLogin: undefined
@@ -52,7 +52,7 @@ export const users: User[] = [
     password: "mgr789",
     role: "admin",
     name: "Mike Johnson",
-    email: "mike@ABN HEATING SYSTEM.com",
+    email: "mike@Malik Trays.com",
     isActive: true,
     createdAt: "2024-01-10",
     lastLogin: undefined

@@ -194,7 +194,7 @@ function Payment() {
                   <Smartphone size={24} />
                   <div>
                     <h4>UPI ID</h4>
-                    <p>ABN HEATING SYSTEM@upi</p>
+                    <p>Malik Trays@upi</p>
                   </div>
                 </div>
                 <div className="payment-method">

@@ -35,7 +35,7 @@ function Contact() {
   };
 
   const handleEmailClick = () => {
-    const subject = encodeURIComponent('Inquiry from ABN HEATING SYSTEM Website');
+    const subject = encodeURIComponent('Inquiry from Malik Trays Website');
     const body = encodeURIComponent('Hello,\n\nI would like to inquire about your products.\n\nThank you.');
     window.open(`mailto:${companyInfo.email}?subject=${subject}&body=${body}`, '_self');
   };
